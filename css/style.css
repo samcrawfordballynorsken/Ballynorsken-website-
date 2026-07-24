@@ -279,6 +279,7 @@ section { padding: 96px 0; }
   box-shadow: 0 0 0 4px rgba(186,109,61,0.12);
 }
 .pillar .icon svg { width: 28px; height: 28px; }
+.pillar .icon img { width: 34px; height: 34px; object-fit: contain; }
 .pillar h3 { color: var(--snow); font-size: 1.02rem; margin-bottom: 8px; letter-spacing: 0.02em; }
 .pillar p { font-size: 0.85rem; color: var(--cream); opacity: 0.75; margin-bottom: 16px; min-height: 40px; }
 .pillar a.explore { font-family: var(--font-utility); font-size: 0.68rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); }
