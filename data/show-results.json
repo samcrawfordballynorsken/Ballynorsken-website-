@@ -1,0 +1,229 @@
+{
+  "entries": [
+    {
+      "milestone": true,
+      "milestoneLabel": "★ Danish Show Champion ★",
+      "placement": "Best in Breed (BIR) — 3rd & Final Danish Certificate — CACIB — Crufts Qualification",
+      "show": "Danish Kennel Club International Show — Vejen (Day 3)",
+      "date": "21 June 2026",
+      "sortDate": "2026-06-21",
+      "class": "",
+      "description": "**Klippets Tirhild is now a Danish Show Champion** — the third and final Danish Certificate needed for the title, won on the third and final day in Vejen, alongside Best in Breed, a CACIB, and qualification for Crufts. The judge's critique noted excellent type, a correct feminine head, excellent neck and topline, correct angulation, and a beautiful colour and temperament.",
+      "images": [
+        { "src": "images/show-results/2026-06-21-vejen-day3-danish-champion-a.jpeg", "alt": "Full board of rosettes — CACB, BIR, Kvalificeret til Crufts, CK, Certifikat and Excellent — from Day 3 of the Vejen international show" },
+        { "src": "images/show-results/2026-06-21-vejen-day3-danish-champion-b.jpeg", "alt": "Dansk Championship rosette confirming Klippets Tirhild as a Danish Show Champion" }
+      ],
+      "bannerImage": "images/dansk-championat-celebration.jpg",
+      "bannerImageAlt": "Dansk Championat celebration graphic for Klippets Tirhild"
+    },
+    {
+      "milestone": false,
+      "placement": "Best in Breed (BIR), Jysk Vinder, Danish Certificate & Nordic Certificate",
+      "show": "Danish Kennel Club International Show — Vejen (Day 2)",
+      "date": "20 June 2026",
+      "sortDate": "2026-06-20",
+      "class": "",
+      "description": "A sweep on the second day in Vejen — Best in Breed, a Danish Certificate, a Nordic Certificate, and the title of Jysk Vinder (Jutland Winner) 2026, officially confirmed by Dansk Kennel Klub.",
+      "images": [
+        { "src": "images/show-results/2026-06-20-vejen-day2-bir-jysk-vinder-a.jpeg", "alt": "Full board of rosettes — Excellent, BIR, Certifikat, CK, Jysk Vinder and Nordic Show Certificate — from Day 2 of the Vejen international show" },
+        { "src": "images/show-results/2026-06-20-vejen-day2-bir-jysk-vinder-b.jpeg", "alt": "Official Dansk Kennel Klub certificate naming Klippets Tirhild Jysk Winner 2026" }
+      ]
+    },
+    {
+      "milestone": false,
+      "placement": "2nd Place Best Female, Danish Certificate & CACIB",
+      "show": "Danish Kennel Club International Show — Vejen (Day 1)",
+      "date": "19 June 2026",
+      "sortDate": "2026-06-19",
+      "class": "",
+      "description": "A first result on Danish soil — second place Best Female, a Danish Certificate, and a CACIB on the opening day of the Dansk Kennel Klub international show in Vejen.",
+      "images": [
+        { "src": "images/show-results/2026-06-19-vejen-day1-2nd-female.jpeg", "alt": "Dansk Kennel Klub rosettes — Excellent, Certifikat, CACIB and CK — from Day 1 of the international show in Vejen, Denmark" }
+      ]
+    },
+    {
+      "milestone": false,
+      "placement": "Best Female (BT), Best of Opposite Sex (BIM) & Swedish Show Certificate",
+      "show": "Norrbotten Älghund Club Show — Luleå",
+      "date": "7 June 2026",
+      "sortDate": "2026-06-07",
+      "class": "",
+      "description": "Best Female and Best of Opposite Sex at the Norrbottens Älghundklubb show in Luleå, adding another Swedish Show Certificate ahead of the trip to Denmark.",
+      "images": [
+        { "src": "images/show-results/2026-06-07-lulea-bt-bim-a.jpeg", "alt": "Handlers with BT and BIM rosettes for the Ballynorsken Norwegian Elk Hound at the Norrbotten Älghund Club show in Luleå" },
+        { "src": "images/show-results/2026-06-07-lulea-bt-bim-b.jpeg", "alt": "Certifikatkvalitet, BIM and Certifikat rosettes from the Norrbottens Älghundklubb show in Luleå" }
+      ]
+    },
+    {
+      "milestone": false,
+      "placement": "Best in Breed (BIR), Swedish Show Certificate & CACIB",
+      "show": "Swedish Kennel Club International Show — Boden",
+      "date": "30 May 2026",
+      "sortDate": "2026-05-30",
+      "class": "",
+      "description": "A third CACIB — Best in Breed at the Södra Norrbottens Kennelklubb international show in Boden, back on home ground in the north.",
+      "images": [
+        { "src": "images/show-results/2026-05-30-boden-bir-cacib.jpeg", "alt": "Trophy, BIR, CACIB and Certifikat rosettes from the Södra Norrbottens Kennelklubb international show in Boden" }
+      ]
+    },
+    {
+      "milestone": false,
+      "placement": "Best in Breed (BIR), Swedish Show Certificate & CACIB",
+      "show": "Swedish Kennel Club International Show — Hässleholm",
+      "date": "17 May 2026",
+      "sortDate": "2026-05-17",
+      "class": "",
+      "description": "Back-to-back Best in Breed on the second day of the Skånska Kennelklubben international show in Hässleholm — another Swedish Show Certificate and CACIB.",
+      "images": [
+        { "src": "images/show-results/2026-05-17-hassleholm-bir-cacib.jpeg", "alt": "Skånska KK trophy, BIR, CACIB and Certifikat rosettes from the second day of the Hässleholm international show" }
+      ]
+    },
+    {
+      "milestone": false,
+      "placement": "Best in Breed (BIR), Swedish Show Certificate & CACIB",
+      "show": "Swedish Kennel Club International Show — Hässleholm",
+      "date": "16 May 2026",
+      "sortDate": "2026-05-16",
+      "class": "",
+      "description": "Best in Breed at the Skånska Kennelklubben international show in Hässleholm, earning both a Swedish Show Certificate and a CACIB certificate, along with the trophy for the win.",
+      "images": [
+        { "src": "images/show-results/2026-05-16-hassleholm-bir-cacib-a.jpeg", "alt": "Handler with Ballynorsken Norwegian Elk Hound and BIR rosette at the Swedish Kennel Club International Show in Hässleholm" },
+        { "src": "images/show-results/2026-05-16-hassleholm-bir-cacib-b.jpeg", "alt": "Trophy, CACIB, BIR and Certifikat rosettes from the Skånska Kennelklubben show in Hässleholm" }
+      ]
+    },
+    {
+      "milestone": false,
+      "placement": "Best in Breed (BIR) & 3rd Place Best in Show (BIS3)",
+      "show": "Västerbotten Älghund Club Show — Umeå",
+      "date": "28 March 2026",
+      "sortDate": "2026-03-28",
+      "class": "",
+      "description": "Best in Breed at the Västerbottens Älghundklubb show in Umeå, going on to place third in Best in Show overall.",
+      "images": [
+        { "src": "images/show-results/2026-03-28-umea-bir-bis3-a.jpeg", "alt": "Handler with Ballynorsken Norwegian Elk Hound and BIR/BIM rosettes at the Västerbottens Älghundklubb show in Umeå" },
+        { "src": "images/show-results/2026-03-28-umea-bis3-rosette.jpeg", "alt": "Best in Show 3rd place rosette from the Västerbottens Älghundklubb show in Umeå" }
+      ]
+    },
+    {
+      "milestone": false,
+      "placement": "Best in Breed (BIR), 3rd Place Best in Show (BIS3) & Swedish Show Certificate",
+      "show": "Norrbottens Älghundklubb — Gällivare",
+      "date": "1 March 2026",
+      "sortDate": "2026-03-01",
+      "class": "",
+      "description": "Best in Breed and third place Best in Show at Gällivare, adding a Swedish Show Certificate to the record. The judge's critique called her \"a very attractive bitch of excellent type\" with an excellent double coat, correct tail carriage, and a light, efficient movement.",
+      "images": [
+        { "src": "images/show-results/2026-03-01-gallivare-bir-bis3-a.jpeg", "alt": "Handler with Ballynorsken Norwegian Elk Hound and rosettes at the Norrbottens Älghundklubb show in Gällivare" }
+      ]
+    },
+    {
+      "milestone": false,
+      "placement": "1st Place, Intermediate Class (EXC 1) — Best in Class",
+      "show": "World Dog Show 2025 — Helsinki, Finland",
+      "date": "9 August 2025",
+      "sortDate": "2025-08-09",
+      "class": "",
+      "description": "Best in Class on the world stage — first place in the Intermediate Bitch class at the World Dog Show 2025 in Helsinki, one of the largest and most competitive dog shows on earth.",
+      "images": [
+        { "src": "images/show-results/2025-08-09-helsinki-world-dog-show.jpeg", "alt": "Klippets Tirhild at the World Dog Show 2025 in Helsinki, Finland" }
+      ]
+    },
+    {
+      "milestone": false,
+      "placement": "1st Place — Best Female (BT) & Best of Opposite Sex (BIM)",
+      "show": "Norrbotten Älghund Club Show — Kalix",
+      "date": "2 August 2025",
+      "sortDate": "2025-08-02",
+      "class": "",
+      "description": "First place Best Female (BT) and Best of Opposite Sex (BIM) at the Norrbottens Älghundklubb show in Kalix.",
+      "images": [
+        { "src": "images/show-results/2025-08-02-kalix-best-female-bim.jpeg", "alt": "Best Female and Best of Opposite Sex rosettes from the Norrbotten Älghund Club show in Kalix" }
+      ]
+    },
+    {
+      "milestone": false,
+      "placement": "1st Place — Best Female (BT), Best of Opposite Sex (BIM), Nordic Certificate & CACIB",
+      "show": "Swedish Kennel Club International Show — Borås",
+      "date": "28 June 2025",
+      "sortDate": "2025-06-28",
+      "class": "",
+      "description": "The biggest result yet — first place Best Female and Best of Opposite Sex at an international show, earning both a Nordic Show Certificate and a CACIB certificate.",
+      "images": [
+        { "src": "images/show-results/2025-06-28-boras-cacib-nordic.jpeg", "alt": "Nordic Show Certificate and Best of Opposite Sex rosettes from the Swedish Kennel Club International Show in Borås" }
+      ]
+    },
+    {
+      "milestone": false,
+      "placement": "1st Place — Best Female (BT) & Best of Opposite Sex (BIM)",
+      "show": "Norrbotten Älghund Club Show — Luleå",
+      "date": "1 June 2025",
+      "sortDate": "2025-06-01",
+      "class": "",
+      "description": "First place Best Female (BT) and Best of Opposite Sex (BIM) at the Norrbottens Älghundklubb show in Luleå.",
+      "images": [
+        { "src": "images/show-results/2025-06-01-lulea-best-female-bim.jpeg", "alt": "Handler with Ballynorsken Norwegian Elk Hound and rosette at the Norrbotten Älghund Club show in Luleå" }
+      ]
+    },
+    {
+      "milestone": false,
+      "placement": "Best Female (PN1) & Best in Breed (ROP)",
+      "show": "Finnish Kennel Club Show — Pello",
+      "date": "12 April 2025",
+      "sortDate": "2025-04-12",
+      "class": "",
+      "description": "Best Female (PN1) and Best in Breed (ROP) at the Finnish Kennel Club show in Pello, Finland.",
+      "images": [
+        { "src": "images/show-results/2025-04-12-pello-rop.jpeg", "alt": "Handlers with rosettes for the Ballynorsken Norwegian Elk Hound at the Finnish Kennel Club show in Pello" }
+      ]
+    },
+    {
+      "milestone": false,
+      "placement": "Best in Breed (BIR) & Best in Show, 2nd Place (BIS 2)",
+      "show": "Västerbotten Älghund Club Show — Umeå",
+      "date": "29 March 2025",
+      "sortDate": "2025-03-29",
+      "class": "",
+      "description": "Best in Breed at the Västerbottens Älghundklubb show in Umeå, then on to place 2nd in Best in Show overall — the best result yet.",
+      "images": [
+        { "src": "images/show-results/2025-03-29-umea-best-in-breed.jpeg", "alt": "Handler with Ballynorsken Norwegian Elk Hound and BIR rosette at the Västerbottens Älghundklubb show in Umeå" },
+        { "src": "images/show-results/2025-03-29-umea-bis2.jpeg", "alt": "Handler with trophy and Best in Show 2nd place rosette at the Västerbottens Älghundklubb show in Umeå" }
+      ]
+    },
+    {
+      "milestone": false,
+      "placement": "Best in Breed (BIR)",
+      "show": "Norra Norrbotten Älghund Club Show — Överkalix",
+      "date": "11 August 2024",
+      "sortDate": "2024-08-11",
+      "class": "",
+      "description": "Best in Breed at the Norra Norrbottens Älghundklubb show, right here in Överkalix — a proud result on home ground.",
+      "images": [
+        { "src": "images/show-results/2024-08-11-overkalix-best-in-breed.jpeg", "alt": "Handler and judge with Ballynorsken Norwegian Elk Hound, Best in Breed rosette at the Norra Norrbotten Älghund Club show" }
+      ]
+    },
+    {
+      "milestone": false,
+      "placement": "1st Place — Best Junior",
+      "show": "Norrbotten Älghund Club Show — Kalix",
+      "date": "4 August 2024",
+      "sortDate": "2024-08-04",
+      "class": "Junior Class",
+      "description": "Klippets Tirhild took first place in the Junior Class at the Norrbottens Älghundklubb show in Kalix, also earning a hunting trial start (\"jaktprovsstart\") for Best Junior of the exhibition.",
+      "images": [
+        { "src": "images/show-results/2024-08-04-kalix-junior-class.jpeg", "alt": "First place rosette, certificate, and prize from the Norrbotten Älghund Club show in Kalix" }
+      ]
+    },
+    {
+      "milestone": false,
+      "placement": "1st Place — Best Puppy",
+      "show": "Västerbotten Älghund Club Show",
+      "date": "26 May 2024",
+      "sortDate": "2024-05-26",
+      "class": "Puppy Class, 6–9 months",
+      "description": "A strong start in the show ring — first place in the Puppy Class (6–9 months) at the Västerbotten Älghund Club Show.",
+      "images": [
+        { "src": "images/show-results/2024-05-26-vasterbotten-puppy-class.jpeg", "alt": "Puppy lying in the grass beside first place rosettes and a puppy class trophy bag" }
+      ]
+    }
+  ]
+}
