@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+Allow: /norwegian-elk-hounds.html
+Allow: /show-results.html
+Allow: /puppies.html
+
+Disallow: /about.html
+Disallow: /alghundskola.html
+Disallow: /cafe.html
+Disallow: /contact.html
+Disallow: /country-store.html
+Disallow: /log-cabins.html
+Disallow: /weddings-conferences.html
+Disallow: /wilderness-experiences.html
+
+Sitemap: https://ballynorsken.se/sitemap.xml
