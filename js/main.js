@@ -1,9 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const header = document.querySelector('.site-header');
-  const toggle = document.querySelector('.nav-toggle');
-  const nav = document.querySelector('.main-nav');
+  const header = document.querySelector('.site-header, .topnav');
+  const toggle = document.querySelector('.nav-toggle, .topnav-toggle');
+  const nav = document.querySelector('.main-nav, .topnav-links');
 
   const onScroll = () => {
+    if (!header) return;
     if (window.scrollY > 40) header.classList.add('scrolled');
     else header.classList.remove('scrolled');
   };
