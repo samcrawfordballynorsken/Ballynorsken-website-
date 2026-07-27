@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ title }}</title>
+<meta name="description" content="{{ description }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:image" content="{{ site.url }}{{ ogImage | default('/images/logo.png') }}">
+<meta property="og:url" content="{{ site.url }}{% if permalink == '/' %}/{% else %}{{ permalink }}{% endif %}">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ title }}">
+<meta name="twitter:description" content="{{ description }}">
+<meta name="twitter:image" content="{{ site.url }}{{ ogImage | default('/images/logo.png') }}">
+
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/favicon-180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/images/favicons/favicon-192.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=EB+Garamond:ital,wght@1,500;1,600&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+{% if extraHead %}{{ extraHead | safe }}{% endif %}

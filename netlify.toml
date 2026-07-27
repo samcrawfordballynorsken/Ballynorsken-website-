@@ -1,0 +1,47 @@
+[build]
+  command = "npm run build"
+  publish = "_site"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Old draft URLs → password-protected /preview/ equivalents
+[[redirects]]
+  from = "/about.html"
+  to = "/preview/about.html"
+  status = 301
+
+[[redirects]]
+  from = "/contact.html"
+  to = "/preview/contact.html"
+  status = 301
+
+[[redirects]]
+  from = "/log-cabins.html"
+  to = "/preview/log-cabins.html"
+  status = 301
+
+[[redirects]]
+  from = "/alghundskola.html"
+  to = "/preview/alghundskola.html"
+  status = 301
+
+[[redirects]]
+  from = "/wilderness-experiences.html"
+  to = "/preview/wilderness-experiences.html"
+  status = 301
+
+[[redirects]]
+  from = "/cafe.html"
+  to = "/preview/cafe.html"
+  status = 301
+
+[[redirects]]
+  from = "/country-store.html"
+  to = "/preview/country-store.html"
+  status = 301
+
+[[redirects]]
+  from = "/weddings-conferences.html"
+  to = "/preview/weddings-conferences.html"
+  status = 301

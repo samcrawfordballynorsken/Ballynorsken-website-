@@ -1,0 +1,97 @@
+---
+layout: layouts/preview.njk
+title: "Contact Us | Ballynorsken Nordic Wilderness"
+description: "Get in touch with Ballynorsken Nordic Wilderness or book your stay."
+permalink: /preview/contact.html
+navKey: contact
+brandLogo: /images/logo.png
+---
+
+<section class="hero hero-sub" style="min-height:46vh;">
+  <div class="wrap">
+    <div class="hero-inner">
+      <span class="eyebrow">We'd Love to Hear From You</span>
+      <h1>Contact &amp; Bookings</h1>
+      <p class="lede">Whether you're booking a cabin, asking about a puppy, or planning a wilderness experience — send us a note and we'll get back to you.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section-cream">
+  <div class="wrap contact-grid">
+    <div>
+      <span class="eyebrow">Send a message</span>
+      <h2 style="margin-bottom:28px;">Get in touch</h2>
+      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" onsubmit="return sendEnquiry(event, 'info@ballynorsken.se')">
+        <input type="hidden" name="form-name" value="contact">
+        <p class="form-honeypot" aria-hidden="true">
+          <label>Don’t fill this out: <input name="bot-field" tabindex="-1" autocomplete="off"></label>
+        </p>
+        <div class="field">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="interest">I'm interested in</label>
+          <select id="interest" name="interest">
+            <option>Booking a log cabin</option>
+            <option>Norwegian Elk Hounds / puppies</option>
+            <option>Älghundskola training</option>
+            <option>Wilderness experiences</option>
+            <option>Café / groups</option>
+            <option>Country store</option>
+            <option>Weddings &amp; conferences (coming soon)</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </div>
+    <div>
+      <div class="info-block">
+        <h4>Location</h4>
+        <p>Ballynorsken Nordic Wilderness<br>Gyljen, near Överkalix, Norrbotten, Sweden</p>
+      </div>
+      <div class="info-block">
+        <h4>Email a specific team directly</h4>
+        <p style="line-height:2;">
+          <a href="mailto:kennel@ballynorsken.se" style="text-decoration:underline;">kennel@ballynorsken.se</a> — Norwegian Elk Hounds &amp; puppies<br>
+          <a href="mailto:cabins@ballynorsken.se" style="text-decoration:underline;">cabins@ballynorsken.se</a> — Log cabin bookings<br>
+          <a href="mailto:alghund@ballynorsken.se" style="text-decoration:underline;">alghund@ballynorsken.se</a> — Älghundskola training<br>
+          <a href="mailto:experiences@ballynorsken.se" style="text-decoration:underline;">experiences@ballynorsken.se</a> — Wilderness experiences<br>
+          <a href="mailto:cafe@ballynorsken.se" style="text-decoration:underline;">cafe@ballynorsken.se</a> — Café &amp; groups<br>
+          <a href="mailto:store@ballynorsken.se" style="text-decoration:underline;">store@ballynorsken.se</a> — Country store<br>
+          <a href="mailto:weddings@ballynorsken.se" style="text-decoration:underline;">weddings@ballynorsken.se</a> — Weddings &amp; conferences
+        </p>
+      </div>
+      <div class="info-block">
+        <h4>Follow</h4>
+        <p>Facebook · Instagram · YouTube · TikTok <span style="opacity:0.6;">(links coming soon)</span></p>
+      </div>
+      <div class="info-block">
+        <h4>A note on visiting</h4>
+        <p style="opacity:0.85;">It's your escape to the Nordic wilderness — you choose what you do and when. Get in touch and we'll help you build the right stay.</p>
+      </div>
+      <div style="margin-top:12px; border-radius:6px; overflow:hidden; border:1px solid rgba(74,53,36,0.2);">
+        <iframe
+          src="https://www.google.com/maps?q=66.384856,22.702815&z=12&output=embed"
+          width="100%" height="320" style="border:0; display:block;"
+          allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Map showing Ballynorsken Nordic Wilderness in Gyljen, near Överkalix">
+        </iframe>
+      </div>
+      <p style="font-size:0.85rem; opacity:0.7; margin-top:8px;">
+        <a href="https://www.google.com/maps?q=66.384856,22.702815" target="_blank" rel="noopener" style="text-decoration:underline;">Open in Google Maps</a> · 66.384856, 22.702815
+      </p>
+    </div>
+  </div>
+</section>

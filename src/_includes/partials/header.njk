@@ -1,0 +1,21 @@
+<header class="topnav">
+  <div class="topnav-inner">
+    <a href="/index.html" class="topnav-brand">
+      <img src="{{ brandLogo | default('/images/logo.png') }}" alt="{{ brandAlt | default('Ballynorsken Nordic Wilderness crest') }}">
+      <span class="topnav-brand-text">
+        <span class="name">BALLYNORSKEN</span>
+        <span class="sub">Nordic Wilderness</span>
+        <span class="tag">{{ site.tagline }}</span>
+      </span>
+    </a>
+    <button class="topnav-toggle" aria-label="Toggle menu">☰</button>
+    <nav class="topnav-links" id="site-nav">
+      {% for item in site.publicNav %}
+      <a href="{{ item.href }}"{% if navKey == item.key %} class="active"{% endif %}>{{ item.label }}</a>
+      {% endfor %}
+    </nav>
+    <div class="topnav-actions">
+      <a href="{{ site.contactCta.href }}" class="book-stay-btn">{{ site.contactCta.label }}</a>
+    </div>
+  </div>
+</header>

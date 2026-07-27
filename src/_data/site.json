@@ -1,0 +1,28 @@
+{
+  "name": "Ballynorsken Nordic Wilderness",
+  "tagline": "Living the Nordic Wilderness",
+  "url": "https://ballynorsken.se",
+  "location": "Gyljen, near Överkalix",
+  "region": "Norrbotten, Sweden",
+  "footerTagline": "It's your escape to the Nordic wilderness — you choose what you do and when.",
+  "publicNav": [
+    { "label": "Home", "href": "/index.html", "key": "home" },
+    { "label": "Norwegian Elk Hounds", "href": "/norwegian-elk-hounds.html", "key": "elk-hounds" },
+    { "label": "Show Results", "href": "/show-results.html", "key": "show-results" },
+    { "label": "Puppies", "href": "/puppies.html", "key": "puppies" }
+  ],
+  "previewNav": [
+    { "label": "About Us", "href": "/preview/about.html", "key": "about" },
+    { "label": "Contact", "href": "/preview/contact.html", "key": "contact" },
+    { "label": "Log Cabins", "href": "/preview/log-cabins.html", "key": "log-cabins" },
+    { "label": "Älghundskola", "href": "/preview/alghundskola.html", "key": "alghundskola" },
+    { "label": "Wilderness Experiences", "href": "/preview/wilderness-experiences.html", "key": "wilderness" },
+    { "label": "Café", "href": "/preview/cafe.html", "key": "cafe" },
+    { "label": "Country Store", "href": "/preview/country-store.html", "key": "country-store" },
+    { "label": "Weddings & Conferences", "href": "/preview/weddings-conferences.html", "key": "weddings" }
+  ],
+  "contactCta": {
+    "label": "Contact Us",
+    "href": "/norwegian-elk-hounds.html#enquiry"
+  }
+}

@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /norwegian-elk-hounds.html
+Allow: /show-results.html
+Allow: /puppies.html
+
+Disallow: /preview/
+Disallow: /admin/
+
+Sitemap: https://ballynorsken.se/sitemap.xml

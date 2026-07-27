@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% include "partials/head.njk" %}
+</head>
+<body{% if contentSrc %} data-content-src="{{ contentSrc }}"{% endif %}>
+
+{% include "partials/header.njk" %}
+
+{{ content | safe }}
+
+{% include "partials/footer.njk" %}
+
+<script src="/js/main.js"></script>
+{% if scripts %}
+{% for src in scripts %}
+<script src="{{ src }}"></script>
+{% endfor %}
+{% endif %}
+{% if identityWidget %}
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {});
+    window.netlifyIdentity.init();
+  }
+</script>
+{% endif %}
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% include "partials/head.njk" %}
+</head>
+<body{% if contentSrc %} data-content-src="{{ contentSrc }}"{% endif %}>
+
+{% include "partials/header-preview.njk" %}
+
+{{ content | safe }}
+
+{% include "partials/footer-preview.njk" %}
+
+<script src="/js/main.js"></script>
+{% if scripts %}
+{% for src in scripts %}
+<script src="{{ src }}"></script>
+{% endfor %}
+{% endif %}
+</body>
+</html>
