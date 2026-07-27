@@ -12,25 +12,6 @@ scripts:
 ---
 
 <style>
-  /* ---------- Cleaned show-results hero ---------- */
-  .show-results-hero {
-    min-height: 58vh;
-  }
-
-  .show-results-hero .photo-hero-content {
-    justify-content: flex-end;
-    padding-bottom: 56px;
-  }
-
-  .show-results-back {
-    color: var(--gold-light);
-    margin-bottom: 18px;
-  }
-
-  .show-results-hero .lede-text {
-    margin-bottom: 0;
-  }
-
   .show-results-registry {
     display: flex;
     flex-wrap: wrap;
@@ -348,13 +329,14 @@ scripts:
   }
 </style>
 
-<section class="photo-hero show-results-hero">
-  <div class="photo-hero-bg" style="background-image: url('/images/elsa-umbrella.jpg'); background-position: center 40%;"></div>
-  <div class="photo-hero-content">
+<section class="photo-hero" style="min-height:60vh;">
+  <div class="photo-hero-bg" style="background-image: url('/images/elsa-umbrella.jpg'); background-position: center 15%;"></div>
+  <div class="photo-hero-content" style="padding-bottom:50px;">
     <div class="photo-hero-text">
-      <a href="/norwegian-elk-hounds.html" class="back-link show-results-back">← Norwegian Elk Hounds</a>
+      <a href="/norwegian-elk-hounds.html" class="back-link" style="color: var(--gold-light);">← Back to Norwegian Elk Hounds</a>
+      <span class="eyebrow">The Kennel</span>
       <h1>Show Results</h1>
-      <p class="lede-text">A living record of the shows we’ve entered — and the results Klippets Tirhild has earned along the way.</p>
+      <p class="lede-text">A living record of the shows we've entered — and the results Klippets Tirhild has earned along the way.</p>
     </div>
   </div>
 </section>
