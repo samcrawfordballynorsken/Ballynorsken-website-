@@ -1,5 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const header = document.querySelector('.topnav');
+  initTopnav();
+  initHomeMobileHero();
+});
+
+function initTopnav() {
   const toggle = document.querySelector('.topnav-toggle');
   const nav = document.querySelector('.topnav-links');
 
@@ -31,7 +35,76 @@ document.addEventListener('DOMContentLoaded', () => {
     if (nav.contains(e.target) || toggle.contains(e.target)) return;
     setOpen(false);
   });
-});
+}
+
+/** Mobile homepage — fixed hero image, scroll-driven darken + zoom-out, text rises over it. */
+function initHomeMobileHero() {
+  const bg = document.querySelector('.photo-hero--home .photo-hero-bg');
+  const parallax = document.querySelector('.photo-hero--home .photo-hero-bg-parallax');
+  const scrim = document.querySelector('.photo-hero--home .photo-hero-bg-scrim');
+  if (!bg || !parallax) return;
+
+  const hero = bg.closest('.photo-hero--home');
+  const mq = window.matchMedia('(max-width: 800px)');
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  let ticking = false;
+
+  function reset() {
+    bg.classList.remove('is-anchored');
+    parallax.style.transform = '';
+    if (scrim) scrim.style.opacity = '0';
+  }
+
+  function update() {
+    if (!mq.matches || !hero) {
+      reset();
+      return;
+    }
+
+    const scrollY = window.scrollY;
+    const vh = window.innerHeight;
+    const maxScroll = Math.max(hero.offsetHeight - vh, 1);
+    const progress = Math.min(Math.max(scrollY / maxScroll, 0), 1);
+    const darkenProgress = Math.min(Math.max(scrollY / (vh * 0.85), 0), 1);
+
+    if (scrim) {
+      scrim.style.opacity = String(darkenProgress * 0.58);
+    }
+
+    if (scrollY + vh >= hero.offsetTop + hero.offsetHeight) {
+      bg.classList.add('is-anchored');
+      parallax.style.transform = '';
+    } else {
+      bg.classList.remove('is-anchored');
+      if (!reduceMotion.matches) {
+        const scale = 1.07 - darkenProgress * 0.07;
+        parallax.style.transform = `scale(${scale})`;
+      } else {
+        parallax.style.transform = progress > 0 ? 'scale(1)' : 'scale(1.07)';
+      }
+    }
+
+    ticking = false;
+  }
+
+  function onScroll() {
+    if (!ticking) {
+      requestAnimationFrame(update);
+      ticking = true;
+    }
+  }
+
+  mq.addEventListener('change', update);
+  reduceMotion.addEventListener('change', update);
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', update);
+  window.addEventListener('pageshow', update);
+  if (mq.matches && 'scrollRestoration' in history) {
+    history.scrollRestoration = 'manual';
+    window.scrollTo(0, 0);
+  }
+  update();
+}
 
 /**
  * Submits an enquiry form via Netlify Forms.
