@@ -4,6 +4,18 @@ const path = require("path");
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ public: "/" });
 
+  // Reload the browser when static assets change during `npm run dev`
+  eleventyConfig.addWatchTarget("./public/css/");
+  eleventyConfig.addWatchTarget("./public/js/");
+  eleventyConfig.addWatchTarget("./public/data/");
+  eleventyConfig.addWatchTarget("./public/images/");
+
+  eleventyConfig.setServerOptions({
+    liveReload: true,
+    domDiff: true,
+    port: 3333,
+  });
+
   // Write /preview/* Basic-Auth into _site/_headers from PREVIEW_BASIC_AUTH
   // (format: user:password). Falls back to a local-dev placeholder only.
   eleventyConfig.on("eleventy.after", () => {

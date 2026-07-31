@@ -6,18 +6,17 @@ permalink: /preview/cafe.html
 navKey: cafe
 brandLogo: /images/cafe-logo.png
 brandAlt: "Ballynorsken Café crest"
+hero:
+  image: /images/hero-valley-cabin.jpg
+  imagePosition: right 28%
+  class: photo-hero--compact
+  contentClass: photo-hero-content--tight
+  eyebrow: "Good Food. Warm Welcome."
+  title: "The Ballynorsken Café"
+  lede: "Simple, seasonal food in a warm timber room overlooking the lake — open to guests and visitors alike."
 ---
 
-<section class="hero hero-sub">
-  <div class="medallion"><span class="placeholder-label">Photo — café interior, warm light, timber tables</span></div>
-  <div class="wrap">
-    <div class="hero-inner">
-      <span class="eyebrow">Good Food. Warm Welcome.</span>
-      <h1>The Ballynorsken Café</h1>
-      <p class="lede">Simple, seasonal food in a warm timber room overlooking the lake — open to guests and visitors alike.</p>
-    </div>
-  </div>
-</section>
+{% include "partials/photo-hero.njk" %}
 
 <section class="section-cream">
   <div class="wrap content-grid">
@@ -48,10 +47,10 @@ brandAlt: "Ballynorsken Café crest"
 </section>
 
 <section class="section-forest">
-  <div class="wrap" style="text-align:center;">
-    <span class="eyebrow" style="color:var(--gold-light);">A Warm &amp; Welcoming Atmosphere</span>
-    <h2 style="color:var(--snow);">Relax. Unwind. Feel at home.</h2>
-    <p style="color:var(--cream); opacity:0.9; max-width:600px; margin:0 auto;">Step inside and feel the warmth of wood, the glow of the fire, and the scent of good coffee. Our café is designed to be a place where you can slow down, enjoy the view, and savour the moment. Inside or out — every seat has a story to tell.</p>
+  <div class="wrap text-center">
+    <span class="eyebrow">A Warm &amp; Welcoming Atmosphere</span>
+    <h2>Relax. Unwind. Feel at home.</h2>
+    <p class="text-center-narrow text-center-narrow--wide">Step inside and feel the warmth of wood, the glow of the fire, and the scent of good coffee. Our café is designed to be a place where you can slow down, enjoy the view, and savour the moment. Inside or out — every seat has a story to tell.</p>
   </div>
 </section>
 
@@ -76,7 +75,7 @@ brandAlt: "Ballynorsken Café crest"
     <h2>Caring for the land we love</h2>
     <p>We are committed to sustainability in everything we do.</p>
   </div>
-  <div class="wrap" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:20px;">
+  <div class="wrap grid-auto-fit-xs">
     <div class="card"><h3>Reduce</h3><p>We minimise waste and use eco-friendly products.</p></div>
     <div class="card"><h3>Reuse</h3><p>We repurpose and recycle wherever possible.</p></div>
     <div class="card"><h3>Respect</h3><p>We care for nature and leave a lighter footprint.</p></div>
@@ -106,15 +105,15 @@ brandAlt: "Ballynorsken Café crest"
 </section>
 
 <section class="section-forest">
-  <div class="wrap" style="max-width:700px; margin:0 auto; text-align:center;">
-    <span class="eyebrow" style="color:var(--gold-light);">You're Always Welcome</span>
-    <h2 style="color:var(--snow);">A place for everyone</h2>
-    <p style="color:var(--cream); opacity:0.9;">Whether you're a guest, a neighbour, a traveller, or a local — you're part of the Ballynorsken family. We can't wait to welcome you with good food, good coffee, and good company. See you soon!</p>
+  <div class="wrap section-center-narrow">
+    <span class="eyebrow">You're Always Welcome</span>
+    <h2>A place for everyone</h2>
+    <p>Whether you're a guest, a neighbour, a traveller, or a local — you're part of the Ballynorsken family. We can't wait to welcome you with good food, good coffee, and good company. See you soon!</p>
   </div>
 </section>
 
 <section class="section-cream">
-  <div class="wrap" style="max-width:700px; margin:0 auto; text-align:center;">
+  <div class="wrap section-center-narrow">
     <span class="eyebrow">Founders' Note</span>
     <p style="font-family:var(--font-track); font-style:italic; font-size:1.2rem; color:var(--forest); line-height:1.6; margin-bottom:20px;">"Our café is more than a place to eat. It's a place to connect, to share, and to feel at home in the heart of the wilderness. Thank you for being part of our story."</p>
     <div class="signature">Sam &amp; Jackie Crawford</div>
@@ -123,14 +122,14 @@ brandAlt: "Ballynorsken Café crest"
 </section>
 
 <section style="padding-bottom:48px;">
-  <div class="wrap" style="text-align:center;">
-    <p class="tagline-text" style="font-size:1.3rem; color:var(--forest);">"Good food. Good company. Good memories."</p>
+  <div class="wrap text-center">
+    <p class="tagline-text tagline-text--xxl">"Good food. Good company. Good memories."</p>
   </div>
 </section>
 
 <section class="cta-band">
   <div class="wrap">
-    <span class="eyebrow" style="color: var(--gold-light);">Staying with us?</span>
+    <span class="eyebrow">Staying with us?</span>
     <h2>The café is a short walk from every cabin</h2>
     <div class="btn-row">
       <a href="/preview/log-cabins.html" class="btn btn-solid">See Cabins</a>
@@ -142,8 +141,8 @@ brandAlt: "Ballynorsken Café crest"
 <section class="section-cream enquiry-section">
   <div class="wrap">
     <span class="eyebrow">Ask the Café</span>
-    <h2 style="margin-bottom:8px;">Send a direct enquiry</h2>
-    <p class="enquiry-note">Planning a visit, a group booking, or asking about the menu? This goes straight to cafe@ballynorsken.se — or use our <a href="/preview/contact.html" style="text-decoration:underline; color:var(--gold);">general contact page</a> instead.</p>
+    <h2>Send a direct enquiry</h2>
+    <p class="enquiry-note">Planning a visit, a group booking, or asking about the menu? This goes straight to cafe@ballynorsken.se — or use our <a href="/preview/contact.html" class="link-gold">general contact page</a> instead.</p>
     <form name="cafe" method="POST" data-netlify="true" netlify-honeypot="bot-field" onsubmit="return sendEnquiry(event, 'cafe@ballynorsken.se')">
       <input type="hidden" name="form-name" value="cafe">
       <p class="form-honeypot" aria-hidden="true">

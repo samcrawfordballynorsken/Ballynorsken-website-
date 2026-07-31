@@ -1,44 +1,22 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const header = document.querySelector('.site-header, .topnav');
-  const toggle = document.querySelector('.nav-toggle, .topnav-toggle');
-  const nav = document.querySelector('.main-nav, .topnav-links');
-  const isDrawer = nav && nav.classList.contains('main-nav');
-
-  const onScroll = () => {
-    if (!header) return;
-    if (window.scrollY > 40) header.classList.add('scrolled');
-    else header.classList.remove('scrolled');
-  };
-  onScroll();
-  window.addEventListener('scroll', onScroll);
+  const header = document.querySelector('.topnav');
+  const toggle = document.querySelector('.topnav-toggle');
+  const nav = document.querySelector('.topnav-links');
 
   if (!toggle || !nav) return;
 
-  let backdrop = document.querySelector('.nav-backdrop');
-  if (isDrawer && !backdrop) {
-    backdrop = document.createElement('button');
-    backdrop.type = 'button';
-    backdrop.className = 'nav-backdrop';
-    backdrop.setAttribute('aria-label', 'Close menu');
-    document.body.appendChild(backdrop);
-  }
+  if (!nav.id) nav.id = 'site-nav';
+  toggle.setAttribute('aria-expanded', 'false');
+  toggle.setAttribute('aria-controls', nav.id);
 
   const setOpen = (open) => {
     nav.classList.toggle('open', open);
     toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
     toggle.textContent = open ? '✕' : '☰';
-    if (isDrawer) {
-      document.body.classList.toggle('nav-open', open);
-      if (backdrop) backdrop.classList.toggle('visible', open);
-    }
+    document.body.classList.toggle('nav-open', open);
   };
 
-  toggle.setAttribute('aria-expanded', 'false');
-  if (!nav.id) nav.id = 'site-nav';
-  toggle.setAttribute('aria-controls', nav.id);
-
   toggle.addEventListener('click', () => setOpen(!nav.classList.contains('open')));
-  if (backdrop) backdrop.addEventListener('click', () => setOpen(false));
 
   nav.querySelectorAll('a').forEach((a) => {
     a.addEventListener('click', () => setOpen(false));
@@ -48,20 +26,15 @@ document.addEventListener('DOMContentLoaded', () => {
     if (e.key === 'Escape' && nav.classList.contains('open')) setOpen(false);
   });
 
-  if (!isDrawer) {
-    document.addEventListener('click', (e) => {
-      if (!nav.classList.contains('open')) return;
-      if (nav.contains(e.target) || toggle.contains(e.target)) return;
-      setOpen(false);
-    });
-  }
+  document.addEventListener('click', (e) => {
+    if (!nav.classList.contains('open')) return;
+    if (nav.contains(e.target) || toggle.contains(e.target)) return;
+    setOpen(false);
+  });
 });
 
 /**
  * Submits an enquiry form via Netlify Forms.
- * Attach via:
- * <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field"
- *       onsubmit="return sendEnquiry(event, 'info@ballynorsken.se')">
  */
 function sendEnquiry(event, toAddress) {
   event.preventDefault();

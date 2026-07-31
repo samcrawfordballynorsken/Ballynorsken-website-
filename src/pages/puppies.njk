@@ -12,12 +12,10 @@ scripts:
   - /js/page-content.js
 ---
 
-<section class="photo-hero" style="min-height:60vh;">
-  <div class="photo-hero-bg" style="background-image: url('/images/hero-valley-cabin.jpg'); background-position: center 15%;"></div>
-  <div class="photo-hero-content" style="padding-bottom:50px;">
+<section class="photo-hero photo-hero--subpage photo-hero--compact">
+  <div class="photo-hero-bg" style="background-image: url('/images/hero-valley-cabin.jpg'); background-position: right 28%;"></div>
+  <div class="photo-hero-content photo-hero-content--tight">
     <div class="photo-hero-text">
-      <a href="/norwegian-elk-hounds.html" class="back-link" style="color: var(--gold-light);">← Back to Norwegian Elk Hounds</a>
-      <span class="eyebrow">The Kennel</span>
       <h1>Puppies</h1>
       <p class="lede-text" id="hero-lede">Plans for a future litter are underway. Register your interest now to be among the first to hear.</p>
     </div>
@@ -29,26 +27,26 @@ scripts:
     <span class="eyebrow" id="status-eyebrow">Coming Soon</span>
     <h2 id="status-heading">Stay tuned</h2>
     <p id="status-paragraph">We don't have puppies available just yet — but breeding plans are being made, and we'll share news here as soon as there's something to announce, including expected timing, pedigree details, and photographs as they arrive.</p>
-    <p style="margin-top:16px;">In the meantime, you can follow the dam's own record on our <a href="/show-results.html" style="text-decoration:underline; color:var(--gold);">Show Results page</a> — a Danish Show Champion with titles across Sweden, Finland, and Denmark, including multiple CACIB and Nordic certificates.</p>
+    <p class="section-note">In the meantime, you can follow the dam's own record on our <a href="/show-results.html" class="link-gold">Show Results page</a> — a Danish Show Champion with titles across Sweden, Finland, and Denmark, including multiple CACIB and Nordic certificates.</p>
   </div>
 </section>
 
 <section class="section-forest">
-  <div class="wrap" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:32px;">
+  <div class="wrap feature-grid">
     <div>
-      <span class="eyebrow" style="color:var(--gold-light);">Proven Bloodline</span>
-      <h3 style="color:var(--snow); margin-bottom:12px;">A titled dam</h3>
-      <p style="color:var(--cream); opacity:0.9;">Klippets Tirhild carries Best in Breed, CACIB, and Nordic Certificate titles across three countries — a strong foundation for any future litter.</p>
+      <span class="eyebrow">Proven Bloodline</span>
+      <h3>A titled dam</h3>
+      <p>Klippets Tirhild carries Best in Breed, CACIB, and Nordic Certificate titles across three countries — a strong foundation for any future litter.</p>
     </div>
     <div>
-      <span class="eyebrow" style="color:var(--gold-light);">Raised at Ballynorsken</span>
-      <h3 style="color:var(--snow); margin-bottom:12px;">Nordic wilderness from day one</h3>
-      <p style="color:var(--cream); opacity:0.9;">Any future litter will be born and raised on the estate, surrounded by forest, lake, and the space a working Elk Hound needs to thrive.</p>
+      <span class="eyebrow">Raised at Ballynorsken</span>
+      <h3>Nordic wilderness from day one</h3>
+      <p>Any future litter will be born and raised on the estate, surrounded by forest, lake, and the space a working Elk Hound needs to thrive.</p>
     </div>
     <div>
-      <span class="eyebrow" style="color:var(--gold-light);">Stay Informed</span>
-      <h3 style="color:var(--snow); margin-bottom:12px;">Register your interest</h3>
-      <p style="color:var(--cream); opacity:0.9;">Send us a message below and we'll keep you updated as plans progress — no obligation, just first access to the news.</p>
+      <span class="eyebrow">Stay Informed</span>
+      <h3>Register your interest</h3>
+      <p>Send us a message below and we'll keep you updated as plans progress — no obligation, just first access to the news.</p>
     </div>
   </div>
 </section>
@@ -56,7 +54,7 @@ scripts:
 <section class="section-cream enquiry-section" id="enquiry">
   <div class="wrap">
     <span class="eyebrow">Ask the Kennel Team</span>
-    <h2 style="margin-bottom:8px;">Register your interest</h2>
+    <h2>Register your interest</h2>
     <p class="enquiry-note">Want to be kept in the loop about future litters?</p>
     <form name="kennel" method="POST" data-netlify="true" netlify-honeypot="bot-field" onsubmit="return sendEnquiry(event, 'kennel@ballynorsken.se')">
       <input type="hidden" name="form-name" value="kennel">

@@ -1,0 +1,16 @@
+<section class="pillars-glow-section">
+  <div class="pillars-glow">
+    {% for pillar in site.pillars %}
+    <div class="pillar-glow">
+      <div class="icon-wrap"><img src="{{ pillar.icon }}" alt=""></div>
+      <h3>{{ pillar.title }}</h3>
+      <p>{{ pillar.description }}</p>
+      {% if pillar.comingSoon %}
+      <span class="coming-soon">Coming soon</span>
+      {% else %}
+      <a href="{{ pillar.href }}" class="explore">Explore →</a>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>

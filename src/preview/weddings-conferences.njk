@@ -5,18 +5,16 @@ description: "Weddings and conferences in the Nordic wilderness at Ballynorsken 
 permalink: /preview/weddings-conferences.html
 navKey: weddings
 brandLogo: /images/logo.png
+hero:
+  image: https://commons.wikimedia.org/wiki/Special:FilePath/Jokilinkka,_Kaihnuunv%C3%A4yl%C3%A4,_Norrbotten.jpg
+  class: photo-hero--compact
+  contentClass: photo-hero-content--tight
+  eyebrow: "Coming Soon"
+  title: "Weddings & Conferences"
+  lede: "Intimate gatherings, set against the forests, lakes and northern skies of Norrbotten. A new chapter for Ballynorsken — for the days that matter most."
 ---
 
-<section class="hero hero-sub">
-  <div class="medallion"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Jokilinkka,_Kaihnuunv%C3%A4yl%C3%A4,_Norrbotten.jpg" alt="Norrbotten wilderness landscape, a backdrop for gatherings at Ballynorsken"></div>
-  <div class="wrap">
-    <div class="hero-inner">
-      <span class="eyebrow">Coming Soon</span>
-      <h1>Weddings &amp; Conferences</h1>
-      <p class="lede">Intimate gatherings, set against the forests, lakes and northern skies of Norrbotten. A new chapter for Ballynorsken — for the days that matter most.</p>
-    </div>
-  </div>
-</section>
+{% include "partials/photo-hero.njk" %}
 
 <section class="section-cream">
   <div class="wrap section-head">
@@ -27,27 +25,27 @@ brandLogo: /images/logo.png
 </section>
 
 <section class="section-forest">
-  <div class="wrap" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:32px;">
+  <div class="wrap feature-grid">
     <div>
-      <span class="eyebrow" style="color:var(--gold-light);">Weddings</span>
-      <h3 style="color:var(--snow); margin-bottom:12px;">Vows in the wild</h3>
-      <p style="color:var(--cream); opacity:0.9;">Intimate ceremonies set among the forest and cabins, with the estate's log-built architecture as a natural backdrop for the day.</p>
+      <span class="eyebrow">Weddings</span>
+      <h3>Vows in the wild</h3>
+      <p>Intimate ceremonies set among the forest and cabins, with the estate's log-built architecture as a natural backdrop for the day.</p>
     </div>
     <div>
-      <span class="eyebrow" style="color:var(--gold-light);">Conferences &amp; Retreats</span>
-      <h3 style="color:var(--snow); margin-bottom:12px;">Space to think clearly</h3>
-      <p style="color:var(--cream); opacity:0.9;">Meeting spaces and accommodation for teams who do their best thinking away from the office — with the café and country store close at hand.</p>
+      <span class="eyebrow">Conferences &amp; Retreats</span>
+      <h3>Space to think clearly</h3>
+      <p>Meeting spaces and accommodation for teams who do their best thinking away from the office — with the café and country store close at hand.</p>
     </div>
     <div>
-      <span class="eyebrow" style="color:var(--gold-light);">Celebrations</span>
-      <h3 style="color:var(--snow); margin-bottom:12px;">Anniversaries &amp; milestones</h3>
-      <p style="color:var(--cream); opacity:0.9;">From family reunions to milestone birthdays, the estate opens itself to gatherings of every kind, at a pace that suits the occasion.</p>
+      <span class="eyebrow">Celebrations</span>
+      <h3>Anniversaries &amp; milestones</h3>
+      <p>From family reunions to milestone birthdays, the estate opens itself to gatherings of every kind, at a pace that suits the occasion.</p>
     </div>
   </div>
 </section>
 
 <section class="section-cream">
-  <div class="wrap" style="display:grid; grid-template-columns:1fr 1fr; gap:56px; align-items:center;">
+  <div class="wrap grid-2-col grid-2-col--center">
     <div class="frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Jokkfallet_%C3%B6verkalix_kommun_01_2017-08.jpg" alt="Jockfall waterfall, part of the Ballynorsken wilderness setting" style="border-radius:6px;"></div>
     <div>
       <span class="eyebrow">Why Ballynorsken</span>
@@ -60,7 +58,7 @@ brandLogo: /images/logo.png
 
 <section class="cta-band">
   <div class="wrap">
-    <span class="eyebrow" style="color: var(--gold-light);">Be the first to know</span>
+    <span class="eyebrow">Be the first to know</span>
     <h2>Register your interest</h2>
     <div class="btn-row">
       <a href="/preview/contact.html" class="btn btn-solid">Get in Touch</a>
@@ -72,8 +70,8 @@ brandLogo: /images/logo.png
 <section class="section-cream enquiry-section">
   <div class="wrap">
     <span class="eyebrow">Ask the Weddings Team</span>
-    <h2 style="margin-bottom:8px;">Send a direct enquiry</h2>
-    <p class="enquiry-note">Want to register your interest or ask a question? This goes straight to weddings@ballynorsken.se — or use our <a href="/preview/contact.html" style="text-decoration:underline; color:var(--gold);">general contact page</a> instead.</p>
+    <h2>Send a direct enquiry</h2>
+    <p class="enquiry-note">Want to register your interest or ask a question? This goes straight to weddings@ballynorsken.se — or use our <a href="/preview/contact.html" class="link-gold">general contact page</a> instead.</p>
     <form name="weddings" method="POST" data-netlify="true" netlify-honeypot="bot-field" onsubmit="return sendEnquiry(event, 'weddings@ballynorsken.se')">
       <input type="hidden" name="form-name" value="weddings">
       <p class="form-honeypot" aria-hidden="true">

@@ -1,0 +1,21 @@
+{% if hero %}
+<section class="photo-hero photo-hero--subpage{% if hero.class %} {{ hero.class }}{% endif %}">
+  <div class="photo-hero-bg" style="background-image: url('{{ hero.image }}');{% if hero.imagePosition %} background-position: {{ hero.imagePosition }};{% endif %}"></div>
+  <div class="photo-hero-content{% if hero.contentClass %} {{ hero.contentClass }}{% endif %}">
+    <div class="photo-hero-text">
+      <h1>{{ hero.title }}</h1>
+      <p class="lede-text">{{ hero.lede }}</p>
+      {% if hero.cta %}
+      <a href="{{ hero.cta.href }}" class="hero-cta-btn">{{ hero.cta.label }}</a>
+      {% endif %}
+      {% if hero.buttons %}
+      <div class="cta-row">
+        {% for btn in hero.buttons %}
+        <a href="{{ btn.href }}" class="btn{% if btn.solid %} btn-solid{% endif %}">{{ btn.label }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+{% endif %}

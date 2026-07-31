@@ -125,7 +125,12 @@
       "class": "",
       "description": "Best in Class on the world stage — first place in the Intermediate Bitch class at the World Dog Show 2025 in Helsinki, one of the largest and most competitive dog shows on earth.",
       "images": [
-        { "src": "images/show-results/2025-08-09-helsinki-world-dog-show.jpeg", "alt": "Klippets Tirhild at the World Dog Show 2025 in Helsinki, Finland" }
+        {
+          "type": "video",
+          "src": "images/show-results/2025-08-09-helsinki-world-dog-show.mp4",
+          "poster": "images/show-results/2025-08-09-helsinki-world-dog-show.jpeg",
+          "alt": "Klippets Tirhild at the World Dog Show 2025 in Helsinki, Finland"
+        }
       ]
     },
     {

@@ -24,5 +24,43 @@
   "contactCta": {
     "label": "Contact Us",
     "href": "/norwegian-elk-hounds.html#enquiry"
-  }
+  },
+  "pillars": [
+    {
+      "title": "Norwegian Elk Hounds",
+      "description": "Heritage bloodlines, show champions, and puppies raised in the Nordic wilderness.",
+      "icon": "/images/icons/elk-hounds.png",
+      "href": "/norwegian-elk-hounds.html"
+    },
+    {
+      "title": "Log Cabins",
+      "description": "Handcrafted timber retreats set among pine forest and lakeshore.",
+      "icon": "/images/icons/log-cabins.png",
+      "href": "/preview/log-cabins.html"
+    },
+    {
+      "title": "Älghundskola",
+      "description": "Moose dog training rooted in Nordic hunting tradition and teamwork.",
+      "icon": "/images/icons/alghundskola.png",
+      "href": "/preview/alghundskola.html"
+    },
+    {
+      "title": "Wilderness Experiences",
+      "description": "Guided time outdoors — on foot, by ski, or under the northern lights.",
+      "icon": "/images/icons/wilderness.png",
+      "href": "/preview/wilderness-experiences.html"
+    },
+    {
+      "title": "Café",
+      "description": "Seasonal food and a warm welcome overlooking the lake.",
+      "icon": "/images/icons/cafe.png",
+      "href": "/preview/cafe.html"
+    },
+    {
+      "title": "Country Store",
+      "description": "Local Norrbotten goods — food, craft, and a taste of the north.",
+      "icon": "/images/icons/country-store.png",
+      "href": "/preview/country-store.html"
+    }
+  ]
 }

@@ -20,16 +20,23 @@ function yearFromSortDate(sortDate) {
   return sortDate.slice(0, 4);
 }
 
+function renderMediaItem(item) {
+  if (item.type === 'video') {
+    const poster = item.poster ? ` poster="${escapeHtml(item.poster)}"` : '';
+    return `<video class="timeline-video" muted loop playsinline preload="metadata"${poster} aria-label="${escapeHtml(item.alt)}">
+      <source src="${escapeHtml(item.src)}" type="video/mp4">
+    </video>`;
+  }
+  return `<img src="${escapeHtml(item.src)}" alt="${escapeHtml(item.alt)}" loading="lazy">`;
+}
+
 function renderImages(images) {
   if (!images || images.length === 0) return '';
   if (images.length === 1) {
-    const img = images[0];
-    return `<div class="timeline-media"><img src="${escapeHtml(img.src)}" alt="${escapeHtml(img.alt)}" loading="lazy"></div>`;
+    return `<div class="timeline-media">${renderMediaItem(images[0])}</div>`;
   }
-  const imgs = images.map(img =>
-    `<img src="${escapeHtml(img.src)}" alt="${escapeHtml(img.alt)}" loading="lazy">`
-  ).join('');
-  return `<div class="timeline-media"><div class="timeline-media-grid">${imgs}</div></div>`;
+  const items = images.map(renderMediaItem).join('');
+  return `<div class="timeline-media"><div class="timeline-media-grid">${items}</div></div>`;
 }
 
 function renderEntry(entry, index) {
@@ -111,6 +118,30 @@ function observeTimeline(container) {
   });
 }
 
+function observeVideos(container) {
+  const videos = container.querySelectorAll('.timeline-video');
+  if (!videos.length) return;
+
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  if (!('IntersectionObserver' in window)) return;
+
+  const observer = new IntersectionObserver((items) => {
+    items.forEach((item) => {
+      const video = item.target;
+      if (item.isIntersecting) {
+        video.play().catch(() => {});
+      } else {
+        video.pause();
+      }
+    });
+  }, {
+    threshold: 0.35,
+  });
+
+  videos.forEach((video) => observer.observe(video));
+}
+
 async function loadShowResults() {
   const container = document.getElementById('results-container');
   if (!container) return;
@@ -142,6 +173,7 @@ async function loadShowResults() {
     </div>`;
 
     observeTimeline(container);
+    observeVideos(container);
   } catch (err) {
     console.error('Show results failed to load:', err);
     container.innerHTML = '<p style="text-align:center; opacity:0.7; padding: 40px 0;">Show results are temporarily unavailable. Please try again shortly.</p>';
