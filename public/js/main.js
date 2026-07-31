@@ -53,6 +53,7 @@ function initHomeMobileHero() {
     bg.classList.remove('is-anchored');
     parallax.style.transform = '';
     if (scrim) scrim.style.opacity = '0';
+    if (hero) hero.classList.remove('is-scrolled');
   }
 
   function update() {
@@ -70,6 +71,8 @@ function initHomeMobileHero() {
     if (scrim) {
       scrim.style.opacity = String(darkenProgress * 0.58);
     }
+
+    hero.classList.toggle('is-scrolled', scrollY > vh * 0.08);
 
     if (scrollY + vh >= hero.offsetTop + hero.offsetHeight) {
       bg.classList.add('is-anchored');
