@@ -1,6 +1,55 @@
 {
   "entries": [
     {
+      "milestone": false,
+      "placement": "Best in Class — 2nd Place Best Female (BT)",
+      "show": "Danish Kennel Club International Show — Rønne, Bornholm (Day 3)",
+      "date": "16 August 2026",
+      "sortDate": "2026-08-16",
+      "class": "",
+      "description": "Day three in Rønne wasn’t our day in the group — **Klippets Tirhild (Elsa)** still took Best in Class but finished second in the Best Female competition. A strong week on Bornholm all the same."
+    },
+    {
+      "milestone": false,
+      "placement": "Best in Class, Best Female (BT), Hammerhus Winner & Best of Opposite Sex (BIM)",
+      "show": "Danish Kennel Club International Show — Rønne, Bornholm (Day 2)",
+      "date": "15 August 2026",
+      "sortDate": "2026-08-15",
+      "class": "",
+      "description": "Another excellent day on Bornholm — Best in Class, Best Female, Best of Opposite Sex, and the **Hammerhus Winner** title for Elsa at the three-day international show in Rønne."
+    },
+    {
+      "milestone": false,
+      "placement": "Best in Class, Best Female (BT), Best of Opposite Sex (BIM) & FCI CACIB",
+      "show": "Danish Kennel Club International Show — Rønne, Bornholm (Day 1)",
+      "date": "14 August 2026",
+      "sortDate": "2026-08-14",
+      "class": "",
+      "description": "Opening day of the Danish three-day international show on Bornholm — Best in Class, Best Female, Best of Opposite Sex, and her **final FCI CACIB certificate** in Rønne.",
+      "images": [
+        { "src": "images/show-results/2026-08-14-ronne-bornholm-harbour.jpeg", "alt": "Klippets Tirhild (Elsa) at the harbour in Rønne during the Bornholm international show" }
+      ]
+    },
+    {
+      "milestone": true,
+      "milestoneLabel": "★ Double Best in Breed — Rättvik ★",
+      "placement": "Best in Breed (BIR) both days — 2nd & 3rd Best in Show (BIS)",
+      "show": "Rättvik Hundutställning — Dalarnas Älghundklubb",
+      "date": "8–9 August 2026",
+      "sortDate": "2026-08-09",
+      "class": "",
+      "description": "**Rättvik hundutställning** is the largest and most important show in Sweden dedicated to älghundar, run by Dalarnas Älghundklubb in central Sweden — ideally placed for champion dogs from across Sweden and further afield. To win **Best in Breed (BIR) on both days** is an outstanding achievement, and we are so proud of **Klippets Tirhild (Elsa)**. On Saturday she added **3rd Best in Show**; on Sunday she went one better with **2nd Best in Show**.",
+      "images": [
+        { "src": "images/show-results/2026-08-09-rattvik-rosettes.jpeg", "alt": "Rosettes from Rättvik including Best in Show 3, BIR, CK and Jaktklass — Dalarnas Älghundklubb" },
+        { "src": "images/show-results/2026-08-08-rattvik-show-ring.jpeg", "alt": "Klippets Tirhild in the show ring at Rättvik hundutställning" },
+        { "src": "images/show-results/2026-08-08-rattvik-stacked.jpeg", "alt": "Klippets Tirhild stacked for judging at Rättvik" },
+        { "src": "images/show-results/2026-08-08-rattvik-gaiting.jpeg", "alt": "Klippets Tirhild gaiting at Rättvik hundutställning" },
+        { "src": "images/show-results/2026-08-09-rattvik-handler.jpeg", "alt": "Handler with Klippets Tirhild at Rättvik after a successful day in the ring" }
+      ],
+      "bannerImage": "images/show-results/2026-08-08-09-rattvik-double-bir-celebration.jpeg",
+      "bannerImageAlt": "Celebration graphic — Double Best in Breed winner Klippets Tirhild at Rättvik 2026"
+    },
+    {
       "milestone": true,
       "milestoneLabel": "★ Danish Show Champion ★",
       "placement": "Best in Breed (BIR) — 3rd & Final Danish Certificate — CACIB — Crufts Qualification",
