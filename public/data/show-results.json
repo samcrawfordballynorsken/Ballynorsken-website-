@@ -7,7 +7,10 @@
       "date": "16 August 2026",
       "sortDate": "2026-08-16",
       "class": "",
-      "description": "Day three in Rønne wasn’t our day in the group — **Klippets Tirhild (Elsa)** still took Best in Class but finished second in the Best Female competition. A strong week on Bornholm all the same."
+      "description": "Day three in Rønne wasn’t our day in the group — **Klippets Tirhild (Elsa)** still took Best in Class but finished second in the Best Female competition. A strong week on Bornholm all the same.",
+      "images": [
+        { "src": "images/show-results/2026-08-14-ronne-bornholm-ring.jpeg", "alt": "Klippets Tirhild with handler in the show ring at the Bornholm international show in Rønne" }
+      ]
     },
     {
       "milestone": false,
@@ -16,7 +19,10 @@
       "date": "15 August 2026",
       "sortDate": "2026-08-15",
       "class": "",
-      "description": "Another excellent day on Bornholm — Best in Class, Best Female, Best of Opposite Sex, and the **Hammerhus Winner** title for Elsa at the three-day international show in Rønne."
+      "description": "Another excellent day on Bornholm — Best in Class, Best Female, Best of Opposite Sex, and the **Hammerhus Winner** title for Elsa at the three-day international show in Rønne.",
+      "images": [
+        { "src": "images/show-results/2026-08-15-ronne-bornholm-hammerhus-rosette.jpeg", "alt": "Hammerhus Vinder rosette from Day 2 of the international show in Rønne, Bornholm" }
+      ]
     },
     {
       "milestone": false,
@@ -27,7 +33,9 @@
       "class": "",
       "description": "Opening day of the Danish three-day international show on Bornholm — Best in Class, Best Female, Best of Opposite Sex, and her **final FCI CACIB certificate** in Rønne.",
       "images": [
-        { "src": "images/show-results/2026-08-14-ronne-bornholm-harbour.jpeg", "alt": "Klippets Tirhild (Elsa) at the harbour in Rønne during the Bornholm international show" }
+        { "src": "images/show-results/2026-08-14-ronne-bornholm-harbour.jpeg", "alt": "Klippets Tirhild (Elsa) at the harbour in Rønne during the Bornholm international show" },
+        { "src": "images/show-results/2026-08-14-ronne-bornholm-ring.jpeg", "alt": "Klippets Tirhild with handler in the show ring at the Bornholm international show in Rønne" },
+        { "src": "images/show-results/2026-08-14-ronne-bornholm-bim-rosette.jpeg", "alt": "Dansk Kennel Klub Best of Opposite Sex (BIM) rosette from Day 1 in Rønne" }
       ]
     },
     {
